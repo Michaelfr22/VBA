@@ -1,0 +1,10 @@
+Sub yearValueAnalysis()
+
+    'yearValue = InputBox("What year would you like to run the analysis on?")
+
+    Range("A1").Value = "All Stocks (" + yearValue + ")"
+
+    Worksheets("All Stocks Analysis").Activate
+    
+
+End Sub
